@@ -1,6 +1,5 @@
 # Ha-mo
 
- -------
 ## Description
 > **Ha-mo**는 일상 속에서 손을 사용하기 어려울 때, 모션만으로 원하는 기능을 수행하도록 돕는 프로그램입니다.
 모드에 따라 최대 8개 최소 4개의 명령을 카메라에 손을 인식시키는 것만으로 수행할 수 있습니다.
@@ -19,20 +18,14 @@
 > ```
 ### 2. 기술 스택 및 모델 구조
 
------------
-
 ![image](https://user-images.githubusercontent.com/71580318/123107686-b8673b00-d474-11eb-8ed6-2a24b6cd1d71.png)
 
 
 ### 3. Dry Hand UI
 
----------
-
 ![image](https://user-images.githubusercontent.com/77317312/124409338-1e13cb00-dd83-11eb-8c8d-13e56986a116.png)
 
 ### 4. Dry Hand 실행 설명
-
----------
 
 - method1. 
     - 제공되는 main.exe 파일 실행
@@ -42,8 +35,6 @@
 
 
 ### 5. 디렉토리 구조
-
----------
 
 ```bash
 ├── deployment                            - 배포용 디렉토리
@@ -76,7 +67,6 @@
 
 ### 6-1. [mode 선택 기능]
 
--------------
 1. 유튜브 모드 
     
     | 기능 | 제스처 |
@@ -105,17 +95,15 @@
 
 ### 6-2. [기타 편의 기능]
 
--------------
-1. Play Button -> 동작인식 및 동작인식 확인용 디스플레이 시작
-2. Stop Button -> 동작인식 및 디스플레이 중지
-3. 프레임 수 조절 -> 초당 이미지의 수를 조절가능
-4. 명암 조절 -> 웹캠에서 받아들이는 이미지의 명암 조절 가능
+1. `Play Button` -> 동작인식 및 동작인식 확인용 디스플레이 시작
+2. `Stop Button` -> 동작인식 및 디스플레이 중지
+3. `프레임 수 조절` -> 초당 이미지의 수를 조절가능
+4. `명암 조절` -> 웹캠에서 받아들이는 이미지의 명암 조절 가능
 
 
   
 ### 7. 참고 자료
 
----------------
 - [virtual painter](https://www.youtube.com/watch?v=ZiwZaAVbXQo)
 - [Real-Time Hand Gesture 논문](https://www.koreascience.or.kr/article/JAKO201919866854640.pdf)
 - [PyQt5](https://wikidocs.net/book/2165)
