@@ -1,0 +1,10 @@
+tensorflow
+opencv-python
+mediapipe
+keras
+PyQt5
+pyinstaller
+pywinauto
+pandas
+numpy
+
