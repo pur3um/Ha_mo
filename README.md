@@ -21,11 +21,12 @@
 ![image](https://user-images.githubusercontent.com/71580318/123107686-b8673b00-d474-11eb-8ed6-2a24b6cd1d71.png)
 
 
-### 3. Dry Hand UI
+### 3. Ha-mo UI
 
-![image](https://user-images.githubusercontent.com/77317312/124409338-1e13cb00-dd83-11eb-8c8d-13e56986a116.png)
+[//]: # (![image]&#40;https://user-images.githubusercontent.com/77317312/124409338-1e13cb00-dd83-11eb-8c8d-13e56986a116.png&#41;)
+![image](./hamo_ui.png)
 
-### 4. Dry Hand 실행 설명
+### 4. Ha-mo 실행 설명
 
 - method1. 
     - 제공되는 main.exe 파일 실행
@@ -62,7 +63,7 @@
 └── 제출용                                - 프로젝트 주요 파일 정리 디렉토리
 ```
 
-### 6. Dry Hand Project 기능 설명
+### 6. Hand Motion Project 기능 설명
 
 
 ### 6-1. [mode 선택 기능]

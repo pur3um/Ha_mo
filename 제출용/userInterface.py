@@ -9,8 +9,8 @@ import sys
 class DryHand(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle('DryHand')
-        self.setGeometry(150,150,900,600)
+        self.setWindowTitle('Ha-mo')
+        self.setGeometry(150, 150, 900, 600)
         self.initUI()
     
     def initUI(self):
@@ -19,7 +19,7 @@ class DryHand(QWidget):
         self.dp = getGesture.Gesture()
         self.fps = 40
         self.action_label = ''
-        # 화면관련 설정
+        # 화면 관련 설정
         self.bright = 10
         self.win_width = 900
         self.win_height = 600
@@ -40,7 +40,7 @@ class DryHand(QWidget):
         self.frame.setScaledContents(True)
         self.frame.move(5,5)
 
-        # 손동작이미지출력
+        # 손동작 이미지 출력
         self.frame1 = QLabel(self)
         self.frame1.resize(200, 150)
         self.frame1.setStyleSheet("color: #FF5733; border-style: solid; border-width: 1px; border-color: #05F1F5; border-radius: 10px; ")
