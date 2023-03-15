@@ -24,7 +24,7 @@
 ### 3. Ha-mo UI
 
 [//]: # (![image]&#40;https://user-images.githubusercontent.com/77317312/124409338-1e13cb00-dd83-11eb-8c8d-13e56986a116.png&#41;)
-![image](./hamo_ui.png)
+![image](/hamo_ui.png)
 
 ### 4. Ha-mo 실행 설명
 
