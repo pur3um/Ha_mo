@@ -18,7 +18,8 @@
 > ```
 ### 2. 기술 스택 및 모델 구조
 
-![image](./hamo_process.png)
+![hamo_process](https://user-images.githubusercontent.com/99007025/225612686-ebd00865-4c20-4587-83b9-70a23ee2f754.PNG)
+
 
 
 ### 3. Ha-mo UI
