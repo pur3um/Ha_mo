@@ -41,14 +41,14 @@
 ### 5. 디렉토리 구조
 
 ```bash
-├── deployment                            - 배포용 디렉토리
+├── .deployment                            - 배포용 디렉토리
 │
 ├── pre_productVersion
 │         │
-│         ├── common  -> [model, src에 공통으로 쓰이는 module]
+│         ├── utils  -> [model, src에 공통으로 쓰이는 module]
 │         │    │
 │         │    ├── draw.py                - img 데이터 생성, 데이터 저장
-│         │    └── HandTrackingModule.py  - 손 인식 모듈
+│         │    └── hand_tracking_module.py  - 손 인식 모듈
 │         │
 │         ├── model   -> [transfer learning을 위한 디렉토리]
 │         │    │
@@ -60,10 +60,10 @@
 │         └── src     -> [DryHand app기능 구현 모듈 디렉토리]
 │              │
 │              ├── test/                  - 개발을 위한 test directory
-│              ├── AutopyClass.py         - window controller
-│              └── GestureModule.py       - 모델 input 값 전처리, 추론 함수 정의
+│              ├── autopy_class.py         - window controller
+│              └── gesture_mode_module.py       - 모델 input 값 전처리, 추론 함수 정의
 │
-└── 제출용                                - 프로젝트 주요 파일 정리 디렉토리
+└── .제출용                                - 프로젝트 주요 파일 정리 디렉토리
 ```
 
 ### 6. Hand Motion Project 기능 설명
