@@ -5,12 +5,14 @@ from tensorflow import keras
 from dev_hamo.utils import draw
 import numpy as np
 import cv2
+import time
 
 # webcam size 지정
 hCam, wCam = 640, 640
-# model 설정 값 초기 정의
-model_name = 'vgg16_model_4cls_ws_id_2-3_noangle'
-model_selection = 'CNN'
+# model 설정 값 초기 정의 : time 값 측정
+# model_name = 'vgg16_model_4cls_ws_id_2-3_noangle'
+model_name = "LSTM_model3-11.h5"
+model_selection = "RNN" if "LSTM" in model_name else "CNN"
 conf_limit = 0.75
 
 
